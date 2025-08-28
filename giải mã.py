@@ -1,5 +1,5 @@
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
+from Crypto.Cipher import AES # type: ignore
+from Crypto.Util.Padding import unpad # type: ignore
 from hashlib import sha256
 import base64
 class GiaiMa:

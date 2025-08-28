@@ -1,5 +1,5 @@
-import pytesseract
-from PIL import Image
+import pytesseract # type: ignore
+from PIL import Image # type: ignore
 class XuLyAnh:
     pytesseract.pytesseract.tesseract_cmd = r'E:\Program Files\Tesseract-OCR\tesseract.exe'
     @staticmethod

@@ -1,7 +1,7 @@
-from mahoa import MaHoa
-from giaima import GiaiMa
-from nhandienamthanh import AmThanhToText
-from nhandienhinhanh import XuLyAnh
+from mahoa import MaHoa  # type: ignore
+from giaima import GiaiMa # type: ignore
+from nhandienamthanh import AmThanhToText # type: ignore
+from nhandienhinhanh import XuLyAnh # type: ignore
 def main():
     while True:
         print("\nChọn tác vụ:")

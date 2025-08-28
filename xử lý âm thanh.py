@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as sr # type: ignore
 class AmThanhToText:
     def __init__(self):
         self.recognizer = sr.Recognizer()
